@@ -16,7 +16,7 @@ const ItemPage = (props) => {
         if (item){
             setDocumentTitle(item.name);
         }
-    }, []);  
+    }, [item]);  
 
     if (!item) {
         //If no item - redirect to home page

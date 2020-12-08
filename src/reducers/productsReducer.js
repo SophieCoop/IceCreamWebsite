@@ -20,13 +20,13 @@ const onSortingChange = (state, sortType) => {
     }
 };
 
-const onFilterChange = (state, query) => {
+const onFilterChange = (query) => {
     const trimmedQuery = query.trim();
 
 
     if (trimmedQuery.length > 0) {
         const lowerCaseQuery = trimmedQuery.toLowerCase();
-        const updatedList = state.filter(item =>       
+        const updatedList = defaultItemsList.products.filter(item =>       
             item.name.toLowerCase().includes(lowerCaseQuery)
         );
 
@@ -45,7 +45,7 @@ const ProductsReducer = (state = defaultItemsList.products, action) => {
         case SORT_ITEMS:
             return onSortingChange(state, action.payload);
         case FILTER_ITEMS:
-            return onFilterChange(state, action.payload);
+            return onFilterChange(action.payload);
 
         default:
             return state;

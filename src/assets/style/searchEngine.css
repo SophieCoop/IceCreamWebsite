@@ -25,6 +25,7 @@
     border: 0;
     border-bottom: 1px solid black;
     height: 100%;
+    margin-left: 10px;
 }
 
 .search-engine-sort-filter:focus {outline:0 ;}
