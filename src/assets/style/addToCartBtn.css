@@ -1,0 +1,13 @@
+.add-to-cart-btn-container {
+    height: 30px;
+    width: 100%;
+    background-color: #f6e6f1;
+    cursor: pointer;
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border-radius: 10px;
+}

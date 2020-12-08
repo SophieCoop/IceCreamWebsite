@@ -1,0 +1,13 @@
+.add-to-cart-btn-container {
+    width: 200px;
+    align-self: center;
+    margin-top: 40px;
+}
+.item-container section{
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}

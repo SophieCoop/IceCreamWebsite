@@ -1,0 +1,34 @@
+{
+    "products": [
+        {
+            "id": "ABGH45FLDJ",
+            "name": "Almond Fudge", 
+            "price": "3.60",
+            "about": "Almond Fudge is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum sagittis neque vel maximus. Quisque ultricies accumsan justo. Ut sit amet ante vel nunc lacinia faucibus vel ac dolor. Phasellus vitae velit vehicula, aliquet libero sed, malesuada libero. Nulla odio tellus, pulvinar eget dignissim eu, varius ac orci. Integer laoreet, dui vehicula auctor euismod, eros ligula porta turpis, quis mollis orci lectus vitae felis. Sed malesuada lectus ut tortor ullamcorper, at pulvinar est tincidunt. Curabitur eleifend aliquet dolor, id vulputate risus consequat sed. Etiam malesuada nulla nulla. Cras dignissim facilisis ante. Sed egestas sem arcu, eget luctus nunc bibendum at. Ut molestie velit et pretium ullamcorper."
+        },
+        {
+            "id": "ADKE28FRW9",
+            "name": "Butter Pecan",
+            "price": "4.00",
+            "about": "Butter Pecan is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum sagittis neque vel maximus. Quisque ultricies accumsan justo. Ut sit amet ante vel nunc lacinia faucibus vel ac dolor. Phasellus vitae velit vehicula, aliquet libero sed, malesuada libero. Nulla odio tellus, pulvinar eget dignissim eu, varius ac orci. Integer laoreet, dui vehicula auctor euismod, eros ligula porta turpis, quis mollis orci lectus vitae felis. Sed malesuada lectus ut tortor ullamcorper, at pulvinar est tincidunt. Curabitur eleifend aliquet dolor, id vulputate risus consequat sed. Etiam malesuada nulla nulla. Cras dignissim facilisis ante. Sed egestas sem arcu, eget luctus nunc bibendum at. Ut molestie velit et pretium ullamcorper."
+        },
+        {
+            "id": "HYTSD59WE2",
+            "name": "Cherry Chocolate",
+            "price": "4.90",
+            "about": "Cherry Chocolate is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum sagittis neque vel maximus. Quisque ultricies accumsan justo. Ut sit amet ante vel nunc lacinia faucibus vel ac dolor. Phasellus vitae velit vehicula, aliquet libero sed, malesuada libero. Nulla odio tellus, pulvinar eget dignissim eu, varius ac orci. Integer laoreet, dui vehicula auctor euismod, eros ligula porta turpis, quis mollis orci lectus vitae felis. Sed malesuada lectus ut tortor ullamcorper, at pulvinar est tincidunt. Curabitur eleifend aliquet dolor, id vulputate risus consequat sed. Etiam malesuada nulla nulla. Cras dignissim facilisis ante. Sed egestas sem arcu, eget luctus nunc bibendum at. Ut molestie velit et pretium ullamcorper."
+        },
+        {
+            "id": "GTD3KT81SW",
+            "name": "Chocolate Chip",
+            "price": "3.90",
+            "about": "Chocolate Chip is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum sagittis neque vel maximus. Quisque ultricies accumsan justo. Ut sit amet ante vel nunc lacinia faucibus vel ac dolor. Phasellus vitae velit vehicula, aliquet libero sed, malesuada libero. Nulla odio tellus, pulvinar eget dignissim eu, varius ac orci. Integer laoreet, dui vehicula auctor euismod, eros ligula porta turpis, quis mollis orci lectus vitae felis. Sed malesuada lectus ut tortor ullamcorper, at pulvinar est tincidunt. Curabitur eleifend aliquet dolor, id vulputate risus consequat sed. Etiam malesuada nulla nulla. Cras dignissim facilisis ante. Sed egestas sem arcu, eget luctus nunc bibendum at. Ut molestie velit et pretium ullamcorper."
+        },
+        {
+            "id": "CBF3H6SW9Z",
+            "name": "Chocolate Chunk Cookie",
+            "price": "5.00",
+            "about": "Chocolate Chunk Cookie is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum sagittis neque vel maximus. Quisque ultricies accumsan justo. Ut sit amet ante vel nunc lacinia faucibus vel ac dolor. Phasellus vitae velit vehicula, aliquet libero sed, malesuada libero. Nulla odio tellus, pulvinar eget dignissim eu, varius ac orci. Integer laoreet, dui vehicula auctor euismod, eros ligula porta turpis, quis mollis orci lectus vitae felis. Sed malesuada lectus ut tortor ullamcorper, at pulvinar est tincidunt. Curabitur eleifend aliquet dolor, id vulputate risus consequat sed. Etiam malesuada nulla nulla. Cras dignissim facilisis ante. Sed egestas sem arcu, eget luctus nunc bibendum at. Ut molestie velit et pretium ullamcorper."
+        }
+    ]
+}
