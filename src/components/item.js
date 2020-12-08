@@ -20,17 +20,17 @@ const Item = ({ item }) => {
 
     return (
         <div className="item-container" >
-            <div className={"clickbleItemContainer"} onClick={onItemClick}>
-                <div className="image-container">
+            <div onClick={onItemClick}>
+                <div className="item-image-container">
                     <img src={images[`${item.id}`]} className="item-image" alt="itemImage" />
                 </div>
 
-                <p className="text-container">
+                <p className="item-text-container">
                     <span className="item-title">{`${item.name}`}</span>
                     <span className="item-price">{`$${item.price}`}</span>
                 </p>
             </div>
-            <div className="add-to-cart-container">
+            <div className="item-add-to-cart-container">
                 <AddToCartBtn product={item} />
             </div>
         </div>

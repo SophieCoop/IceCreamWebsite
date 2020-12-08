@@ -30,16 +30,20 @@ const SearchEngine = () => {
     }
 
     return (
-        <div>
-            <p className="search-title">Search For Ice Cream:</p>
-            <Hint options={options}>
-                <input type="text" className="input-engine" style={{ width: "1000px", height: "30px" }}
-                    value={searchText} onChange={onQueryChange} />
-            </Hint>
-            <select className="sort-filter" onChange={(event)=> dispatch(sortItems(event.target.value))}>
-                <option value="name">Sort by name</option>
-                <option value="price" >Sort by price</option>
-            </select>
+        <div className="search-engine-container">
+            <p className="search-engine-title">Search For Ice Cream:</p>
+            <div className="search-engine-hint-container">
+                <Hint options={options}>
+                    <input type="text" className="search-engine-hint-input"
+                        value={searchText} onChange={onQueryChange} />
+                </Hint>
+
+                <select className="search-engine-sort-filter" onChange={(event) => dispatch(sortItems(event.target.value))}>
+                    <option value="name">Sort by name</option>
+                    <option value="price" >Sort by price</option>
+                </select>
+
+            </div>
         </div>
     )
 

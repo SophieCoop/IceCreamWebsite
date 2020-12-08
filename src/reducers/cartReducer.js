@@ -12,7 +12,7 @@ const removeProduct = (state, product) => {
 
 }
 
-export default (state = {}, action) => {
+const CartReducer = (state = {}, action) => {
     switch (action.type) {
         case ADD_PRODUCT:
             return addProduct(state, action.payload);
@@ -24,3 +24,5 @@ export default (state = {}, action) => {
             return state;
     }
 };
+
+export default CartReducer;

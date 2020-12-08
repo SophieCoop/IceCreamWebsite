@@ -25,11 +25,10 @@ const onFilterChange = (state, query) => {
 
 
     if (trimmedQuery.length > 0) {
-        const updatedList = state.filter(item => {
-            const lowerCaseQuery = trimmedQuery.toLowerCase();
-            if (item.name.toLowerCase().includes(lowerCaseQuery))
-                return item;
-        });
+        const lowerCaseQuery = trimmedQuery.toLowerCase();
+        const updatedList = state.filter(item =>       
+            item.name.toLowerCase().includes(lowerCaseQuery)
+        );
 
         if (updatedList.length > 0) {
             return [...updatedList];
@@ -37,11 +36,11 @@ const onFilterChange = (state, query) => {
             return [];
         }
     } else {
-        return [... defaultItemsList.products];
+        return [...defaultItemsList.products];
     }
 };
 
-export default (state = defaultItemsList.products, action) => {
+const ProductsReducer = (state = defaultItemsList.products, action) => {
     switch (action.type) {
         case SORT_ITEMS:
             return onSortingChange(state, action.payload);
@@ -52,3 +51,5 @@ export default (state = defaultItemsList.products, action) => {
             return state;
     }
 };
+
+export default ProductsReducer;
